@@ -1,0 +1,88 @@
+گزارش آماری پردازش داده‌ها (Persian DSL Compiler)
+==================================================
+
+[1] LOAD
+Loaded file: lab_data.csv
+Rows: 10
+Cols: 5
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[2] CLEAN - DROP_DUPLICATES
+Params: 
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[3] CLEAN - DROP_ALL
+Params: خالی
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[4] FILTER
+Condition: age > 15
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[5] CREATE_COL
+Created column: result in df
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[6] RENAME
+Renamed column result to sick in df
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[7] CREATE_COL
+Created column: res in df
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[8] NORMALIZE
+Normalized column: res in df
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[9] PLOT
+Type: HEATMAP
+Target: ALL
+Group: ALL
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[10] SORT
+Sort by sick (صعودی)
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[11] LEVELING
+Column: res
+Levels: ['low', 'normal', 'heigh', 'danger']
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[12] PLOT
+Type: SCAT
+Target: res
+Group: age
+
+Timestamp: 2026-02-03 21:20:42
+
+
+[13] SAVE
+Saved df to "processed_data.csv"
+
+Timestamp: 2026-02-03 21:20:42
+
+

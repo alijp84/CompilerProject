@@ -1,0 +1,13 @@
+بگیر از "lab_data.csv" به نام df
+پاکسازی df : حذف تکراری
+پاکسازی df : حذف کلی خالی
+فیلتر df : وقتی age > 15
+ایجاد_ستون df : result = ((0.1 * glucose) + (0.9 * cholesterol))
+تغییر_نام df : result به sick
+ایجاد_ستون df : res = sick
+نرمال_سازی df : ستون res
+نمودار df : نقشه_حرارتی
+مرتب_سازی df : sick صعودی
+سطح_بندی df : در res به 0:low 0.3:normal 0.6:heigh 0.8:danger
+نمودار df : پراکندگی res در age
+ذخیره df : در "processed_data.csv"

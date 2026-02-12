@@ -1,0 +1,11 @@
+id,gender,age,glucose,cholesterol
+1,Male,25,92,180
+2,Female,30,105,190
+3,Male,45,110,210
+4,Female,50,98,
+5,Male,10,115,220
+6,Female,40,,195
+7,Male,60,130,240
+8,Female,55,120,
+9,Male,45,110,210
+10,Female,30,105,190
