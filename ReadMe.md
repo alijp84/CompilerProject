@@ -28,12 +28,13 @@ The compiler follows a 4-stage pipeline:
 *   **Analysis:** Filtering, sorting, grouping, and statistical calculations.
 *   **Visualization:** Automates creation of Histograms, Scatter plots, and Box plots.
 
-## Installation & Usage
+## Installation
 
-1.  **Install dependencies:**
+  **Install dependencies:**
 ```bash
 pip install pandas matplotlib seaborn lark-parser
-
-2.  **Run the compiler:**
+```
+2. **Run the compiler:**
 ```bash
 python main.py input.txt
+```
