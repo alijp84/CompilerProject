@@ -34,7 +34,7 @@ The compiler follows a 4-stage pipeline:
 ```bash
 pip install pandas matplotlib seaborn lark-parser
 ```
-2. **Run the compiler:**
+**Run the compiler:**
 ```bash
 python main.py input.txt
 ```
